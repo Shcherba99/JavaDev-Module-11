@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Time</title>
+    <style>
+        body, html {
+            margin: 0;
+            padding: 0;
+            height: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .time-text {
+            text-align: center;
+            font-size: 24px;
+        }
+    </style>
+</head>
+<body>
+<div class="time-text">
+    <h1 th:text="${currentTime}"></h1>
+</div>
+</body>
+</html>
